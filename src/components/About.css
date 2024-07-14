@@ -1,0 +1,52 @@
+/* src/components/About.css */
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background: linear-gradient(45deg, #00ff00, #008000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    border-radius: 10px;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
